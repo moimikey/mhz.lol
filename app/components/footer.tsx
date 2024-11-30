@@ -2,9 +2,7 @@
 
 import React from "react";
 import {
-  FaXTwitter,
   FaGithub,
-  FaInstagram,
   FaRss,
   FaLinkedinIn,
   FaBluesky,
