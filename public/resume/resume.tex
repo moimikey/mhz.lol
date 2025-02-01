@@ -1,0 +1,164 @@
+% resume.tex
+\documentclass{resume}
+
+% Resume Content
+\begin{document}
+
+% Contact Header
+\contactHeader
+    {Michael S. Hertzberg}
+    {mshertzberg@gmail.com}
+    {+1 (347) 420-6397}
+    {mshertzberg}
+    {moimikey}
+    {mhz.lol}
+
+% Summary
+\resumeSection{Professional Summary}
+\resumeItem{
+    Staff/Senior Software Engineer with 15+ years of experience specializing in frontend architecture and product engineering.
+    Proven track record of building scalable web applications, optimizing user experiences, and driving technical excellence in cross-functional teams.
+    Expert in TypeScript/JavaScript ecosystems and modern frontend frameworks.
+}
+
+% Experience
+\resumeSection{Experience}
+\resumeCompany
+    {Senior Full Stack Engineer}
+    {Aug 2024 - Present}
+    {Boost Studios} {https://boost.xyz}
+    {Remote}
+\resumeItem{
+    \begin{itemize}
+        \item Built company's first Widget SDK in TypeScript/React, winning internal hackathon before evolving into a production NPM package with full test coverage. Reduced Web3 integration time from weeks to days
+        \item Created company's first design system and React component library, standardizing UI/UX across products and doubling feature deployment speed
+        \item Owned two key Web3 projects end-to-end, from planning through deployment, using Linear for sprints and Vercel for infrastructure
+    \end{itemize}
+}
+
+\resumeCompany
+    {Sr. Staff Software Engineer}
+    {Nov 2023 - Jul 2024}
+    {CamoAg} {https://camo.ag}
+    {Remote}
+\resumeItem{
+    \begin{itemize}
+        \item Co-led rebuild of enterprise mapping platform using TypeScript/React and Mapbox GL, focusing on layer architecture and navigation UX. Implemented optimistic UI patterns that dramatically improved load times
+        \item Replaced Redux with React Context and React Query, reducing boilerplate while leveraging SSR for improved caching
+        \item Drove TypeScript migration across mapping code-base, converting critical JavaScript modules to typed implementations to reduce runtime errors
+    \end{itemize}
+}
+
+\resumeCompany
+    {Staff Software Engineer}
+    {Nov 2020 - Jan 2023}
+    {TrueML} {https://trueml.co}
+    {Remote}
+\resumeItem{
+    \begin{itemize}
+        \item Led frontend development and co-architected infrastructure for TrueML Financial Services, a proof-of-concept credit-building platform. Used MobX-State-Tree with MSTGQL to automatically generate typed models from GraphQL schema, ensuring perfect client-server data consistency.
+        \item Built high-performance internal metrics dashboard that replaced costly third-party solution, achieving sub-2s load times through strategic cache management
+        \item Spearheaded React component library and design system initiative, establishing consistent UI patterns and accelerating development across product teams
+    \end{itemize}
+}
+
+% Page break
+\clearpage
+
+\resumeCompany
+    {Senior Engineer}
+    {Dec 2016 - May 2020}
+    {G/O Media; Kinja} {https://kinja.com}
+    {New York, NY / Remote}
+\resumeItem{
+    \begin{itemize}
+        \item Led G/O Media's platform transition from Backbone.js to React/TypeScript, building a multi-tenant architecture with server-side rendering that enabled independent team deployments
+        \item Established core developer tooling and React infrastructure that simplified workflows and shortened engineering onboarding from weeks to days
+    \end{itemize}
+}
+
+\resumeCompany
+    {Senior Engineer}
+    {Jul 2016 - Nov 2016}
+    {RedOwl} {https://www.forcepoint.com/redowl}
+    {New York, NY}
+\resumeItem{
+    \begin{itemize}
+        \item Enhanced enterprise threat detection platform's search capabilities by implementing advanced filtering UI and migrating state management from Flux to Redux
+        \item Developed key features for large-scale data visualization and monitoring tools used by Fortune 500 companies to identify internal security risks
+        \item Core contributor to the platform's UI architecture, later acquired by Forcepoint
+    \end{itemize}
+}
+
+\resumeCompany
+    {Senior Frontend Engineer}
+    {Feb 2016 - Jul 2016}
+    {ZocDoc} {https://zocdoc.com}
+    {New York, NY}
+\resumeItem{
+    \begin{itemize}
+        \item Created ZocDoc's first external appointment booking SDK, engineering a React-based widget that enabled medical practices to embed scheduling directly on their websites
+        \item Led migration strategy from Ember to React components, coordinating with teams to systematically deprecate legacy functionality
+        \item Taught advanced JavaScript and React concepts to engineering interns, helping shape ZocDoc's summer education program
+    \end{itemize}
+}
+
+\vspace{6pt}
+\resumeBriefCompany{Software Engineer}
+    {2014 - 2016}
+    {ShopKeep by Lightspeed}
+    {https://shopkeep.com}
+    {New York, NY}
+
+\resumeBriefCompany
+    {Senior Software Engineer}
+    {2012 - 2014}
+    {MiMedia}
+    {https://mimedia.com}
+    {New York, NY}
+
+\resumeBriefCompany
+    {Senior Front-End Engineer}
+    {2012 - 2012}
+    {eMusic}
+    {https://emusic.com}
+    {New York, NY}
+
+\resumeBriefCompany
+    {Front-End Engineer}
+    {2011 - 2012}
+    {Built by the Factory}
+    {https://www.linkedin.com/company/built-by-the-factory}
+    {New York, NY}
+
+\resumeBriefCompany
+    {Front-End Engineer}
+    {2010 - 2011}
+    {Coed Media Group}
+    {https://www.linkedin.com/company/coed-media-group-llc}
+    {New York, NY}
+
+\resumeBriefCompany
+    {Freelance Engineering}
+    {2007 - 2010}
+    {}
+    {}
+    {New York, NY}
+
+% Skills
+\resumeSection{Skills}
+\resumeItem{
+    \begin{itemize}
+        \item \textbf{Core Technologies:} TypeScript, JavaScript, Node.js, Deno, Bun, HTML5, CSS3
+        \item \textbf{Frontend:} React, Next.js, MobX, React Query, React-Aria, XState, State Machines, TanStack
+        \item \textbf{Web3:} Web3.js, RainbowKit, Wagmi, Viem, Ethereum Development
+        \item \textbf{Infrastructure:} AWS, CDK, Kubernetes, Docker, Vercel, Deno Deploy, JSR
+        \item \textbf{Data \& Type Safety:} GraphQL, REST APIs, Drizzle ORM, Supabase, PostgreSQL, Redis, Zod
+        \item \textbf{Development:} Git, Webpack, Vite, Jest, React Testing Library, OXC, npm/yarn, Linear
+        \item \textbf{UI/UX:} Tailwind CSS, UnoCSS, Open Props, CVA, shadcn/ui, Design Systems, Component Libraries
+        \item \textbf{Architecture:} Multi-tenant Systems, Service-Oriented Architecture, System Design, Scalability
+        \item \textbf{Leadership:} Technical Direction, Team Mentoring, Requirements Gathering, Code Review, Documentation
+    \end{itemize}
+}
+
+\end{document}
