@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { socialLinks } from "./config";
+import { Button } from "@/components/ui/button";
 
 export default function Page() {
   return (

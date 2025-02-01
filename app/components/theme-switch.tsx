@@ -46,7 +46,7 @@ export const ThemeSwitch: React.FC = () => {
   React.useEffect(() => {
     setMounted(true);
     const initTheme = getColorPreference();
-    reflectPreference(initTheme);
+    reflectPreference(initTheme) ;
 
     const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
     const handleChange = () => {
