@@ -29,7 +29,7 @@
         \faPhone~\href{tel:#3}{#3} \quad % Phone
         \faLinkedin~\href{https://linkedin.com/in/#4}{#4} \quad % LinkedIn
         \faGithub~\href{https://github.com/#5}{#5} \quad % GitHub
-        \faGlobe~\href{https://#6}{#6} % Personal URL
+        \faGlobe~\href{https://#6}{#6} % Location
         \vspace{8pt}
     \end{center}
 }
