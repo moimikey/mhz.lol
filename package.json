@@ -6,6 +6,7 @@
     "build": "next build",
     "start": "next start"
   },
+  "packageManager": "pnpm@latest",
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
     "@radix-ui/react-accordion": "^1.2.2",
