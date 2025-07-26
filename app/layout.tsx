@@ -1,43 +1,43 @@
-import type { Metadata, Viewport } from 'next'
-import { Geist, Geist_Mono } from 'next/font/google'
-import './globals.css'
-import { Header } from './header'
-import { Footer } from './footer'
-import { ThemeProvider } from 'next-themes'
+import type { Metadata, Viewport } from "next";
+import { Geist, Geist_Mono } from "next/font/google";
+import "./globals.css";
+import { ThemeProvider } from "next-themes";
+import { Footer } from "./footer";
+import { Header } from "./header";
 
 export const viewport: Viewport = {
-  width: 'device-width',
+  width: "device-width",
   initialScale: 1,
-  themeColor: '#ffffff',
-}
+  themeColor: "#ffffff",
+};
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://mhzlol.vercel.app/'),
+  metadataBase: new URL("https://mhzlol.vercel.app/"),
   alternates: {
-    canonical: '/',
+    canonical: "/",
   },
   title: {
-    default: 'Michael Scott Hertzberg | mhz.lol',
-    template: '%s | mhz.lol',
+    default: "Michael Scott Hertzberg | mhz.lol",
+    template: "%s | mhz.lol",
   },
   description:
     "Michael Scott Hertzberg's personal website built with Next.js 15, React 19 and Motion-Primitives.",
-}
+};
 
 const geist = Geist({
-  variable: '--font-geist',
-  subsets: ['latin'],
-})
+  variable: "--font-geist",
+  subsets: ["latin"],
+});
 
 const geistMono = Geist_Mono({
-  variable: '--font-geist-mono',
-  subsets: ['latin'],
-})
+  variable: "--font-geist-mono",
+  subsets: ["latin"],
+});
 
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode
+  children: React.ReactNode;
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
@@ -60,5 +60,5 @@ export default function RootLayout({
         </ThemeProvider>
       </body>
     </html>
-  )
+  );
 }
